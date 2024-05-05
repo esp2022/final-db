@@ -1,0 +1,1 @@
+Our approach for securely storing usernames and passwords in the database is hashing the passwords by utilizing a cryptographic hash function to transform passwords into a fixed size string of characters. This ensures that even if someone has access to the database, they will find it difficult to decipher the passwords.
