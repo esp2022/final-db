@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>Receiving</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="receiving-body">
+    <div id="neutralinoapp">
+        <nav class="navbar navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand"> WMS App - Receiving</a>
+        </nav>
+        <br>
+        <div class="d-flex justify-content-lg-center  ">
+
+            <form>
+
+                <div class="w-100 p-3">
+
+                    <h2 id="hellomessage">Hello</h2>
+                </div>
+
+                <!--Logout button-->
+
+                <div class="w-100 p-3">
+                    <div class="d-flex justify-content-center ">
+                        <a href="/login">
+                            <input class="btn btn-success " id="logoutselectedsubmitbtn" type="button" value="Logout" />
+                        </a>
+                    </div>
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+        <br>
+        <br>
+        <div class="d-flex justify-content-center ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-150" style="width: 18rem;">
+                        <img src="img/ordercreation.png" width=" 50" height="200" class=" card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Create Inbound Order</h5>
+                            <p class="card-text">This option will let you create a new Replenishment ASN Order shipped from Partner's Supplier.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-center ">
+                                <a href="/replenishment_order_create">
+                                    <input class="btn btn-info " id="receivingselectedsubmitbtn" type="button"
+                                        value="Go" />
+                                </a>
+                            </div>
+                            <small class="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-150" style="width: 18rem;">
+                        <img src="img/orderprocess.png" width=" 50" height="200" class=" card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Process Inbound Order</h5>
+                            <p class="card-text">This option will let you receive goods at Warehouse dock & put away the Replenishment Order.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-center ">
+                                <a href="/replenishment_order_process">
+                                    <input class="btn btn-info " id="putawayselectedsubmitbtn" type="button"
+                                        value="Go" />
+                                </a>
+                            </div>
+                            <small class="text-muted"></small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/receiving.js"></script>
+
+</body>
+
+</html>
