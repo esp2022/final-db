@@ -4,7 +4,7 @@ Aryan Kalapatapu
 - Completed prelim.pdf, db_design.pdf, and the other txt files
 
 Paul M
-- Helped complete the implementation of perf.txt and the indexes
+- Helped complete queries.sql and the indexes
 
 Gokul
 - Helped complete the login user interface
