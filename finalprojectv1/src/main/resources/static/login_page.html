@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+
+    <!-- Stylesheets -->
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="login-body">
+    <!-- WMS Application Container -->
+    <div id="wmsapp">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/dashboard"> WMS App - Login</a>
+        </nav>
+        <!-- Spacer -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <!-- Login Card -->
+        <!-- The login card is a Bootstrap card component with a centered layout.
+        It contains a form for the user to submit their login credentials. -->
+        <div class="d-flex justify-content-center ">
+            <div id="logincard" class="card text-white bg-dark mb-3">
+                <!-- Card Body -->
+                <div class="card-body ">
+                    <!-- Card Title -->
+                    <h5 class="card-title">Operator Login</h5>
+                    <!-- Card Text -->
+                    <p class="card-text">
+                        Login to carryout Warehouse Operations
+                    </p>
+
+                    <!-- Login Form -->
+                    <form>
+                        <!-- Username Input -->
+                        <div class="form-group">
+                            <label for="operatorname">User Name</label>
+                            <input type="text" class="form-control" id="operatorname"
+                                placeholder="Enter Operator User Name">
+                        </div>
+                        <!-- Password Input -->
+                        <div class="form-group">
+                            <label for="operatorpassword">Password</label>
+                            <input type="password" class="form-control" id="operatorpassword"
+                                placeholder="Enter Password">
+                        </div>
+                    </form>
+                    <!-- Submit Button -->
+                    <div class="d-flex justify-content-center ">
+                        <input class="btn btn-success " id="operatorselectedsubmitbtnlogin" type="submit" value="Submit" />
+                    </div>
+                    <!-- Registration Link -->
+                    <br>
+                    <div class="d-flex justify-content-center ">
+                        <a class="my-link-white" href="register">Click Here to Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Application JavaScript -->
+    <script src="js/login.js"></script>
+</body>
+
+</html>
