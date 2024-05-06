@@ -1,0 +1,109 @@
+<!--- 
+    Register Page
+    This is the HTML for the WMS App Register page.
+    It contains a navigation bar, a registration card, and a hyperlink for login.
+-->
+<html lang="en" className="scroll-smooth">
+
+<head>
+    <!-- Title and CSS -->
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body class="login-body">
+    <div id="wmsapp" class="wmsapp">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/dashboard"> WMS App - Register</a>
+        </nav>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <!-- Register Card -->
+
+        <!-- The registration card is a Bootstrap card component with a centered layout.
+        It contains a form for the user to submit their registration credentials. -->
+        <div class="d-flex justify-content-center ">
+            <div id=" logincard" class="card text-white bg-dark mb-3">
+
+                <!-- Card Body -->
+                <div class="card-body ">
+                    <!-- Card Title -->
+                    <h5 class="card-title">Operator Registration</h5>
+                    <!-- Card Text -->
+                    <p class="card-text">
+                        Register to carryout Warehouse Operations
+                    </p>
+
+                    <!-- Registration Form -->
+                    <form>
+                        <!-- First Name Input -->
+                        <div class="form-group">
+                            <label for="operatorfirstname">First Name</label>
+                            <input type="text" class="form-control" id="operatorfirstname"
+                                placeholder="Enter First Name">
+                        </div>
+                        <!-- Last Name Input -->
+                        <div class="form-group">
+                            <label for="operatorlastname">Last Name</label>
+                            <input type="text" class="form-control" id="operatorlastname" placeholder="Enter Last Name">
+                        </div>
+                        <!-- Username Input -->
+                        <div class="form-group">
+                            <label for="operatorusername">User Name</label>
+                            <input type="text" class="form-control" id="operatorusername"
+                                placeholder="Enter Operator User Name">
+                        </div>
+                        <!-- Password Input -->
+                        <div class="form-group">
+                            <label for="operatorpassword">Password</label>
+                            <input type="password" class="form-control" id="operatorpassword"
+                                placeholder="Enter Password">
+                        </div>
+                        <!-- Confirm Password Input -->
+                        <div class="form-group">
+                            <label for="operatorpasswordrepeat">Confirm Password</label>
+                            <input type="password" class="form-control" id="operatorpasswordrepeat"
+                                placeholder="Confirm Password">
+                        </div>
+
+                    </form>
+                    <!-- Submit Button -->
+                    <div class="d-flex justify-content-center ">
+
+                        <input class="btn btn-success " id="operatorselectedsubmitbtn" type="submit" value="Submit" />
+
+                    </div>
+                    <!-- Hyperlink for Login -->
+                    <br>
+                    <div class="d-flex justify-content-center ">
+
+                        <a class="my-link-white" href="login">Click Here to Login</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
