@@ -1,0 +1,15 @@
+-- Index 1
+-- Index on PartNumber for quick lookups
+CREATE UNIQUE INDEX idx_stock_partnumber ON Stock(PartNumber);
+Query affected: select ItemCost from Stock where PartNumber = "?"
+
+Time Consumption Before: 3.06 s
+Time Consumtion After: 0.03 s
+
+-- Index 2
+-- Index on Active status if filtering by active/inactive items is common
+CREATE INDEX idx_stock_active ON Stock(Active);
+Query affected: select ItemCost from Stock where Active = "?"
+
+Time Consumption Before: 3.73 s
+Time Consumtion After: 0.02 s
