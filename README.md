@@ -15,6 +15,6 @@ Eeshwar
 Technologies:
 - MySQL, JavaScript, SpringBoot, Java
 
-Database Name: 
-- Username:
-- Password: 
+Database Name: cs4370_mb_platform_final
+- Username: root
+- Password: mysqlpass
