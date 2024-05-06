@@ -1,0 +1,9 @@
+Data Source Description:
+  The data used in this project was sourced from random name generators. We used these to generate names of people. companies, etc.
+
+Data Access Link:
+https://homepage.net/name_generator/
+https://www.fakenamegenerator.com/
+https://fauxid.com/tools/fake-company-generator
+
+
